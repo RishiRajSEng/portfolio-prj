@@ -1,16 +1,84 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive personal portfolio website built with **React and Vite**. The portfolio showcases my skills, projects, experience, and background through a clean and interactive interface.
 
-Currently, two official plugins are available:
+🌐 **Live Website:** [portfolio-dwft3incg-rishii1.vercel.app](https://portfolio-dwft3incg-rishii1.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+
+* Responsive portfolio design
+* About Me section
+* Skills and technologies showcase
+* Project portfolio
+* Experience and education sections
+* Contact section
+* Modern UI and smooth navigation
+* Optimized for desktop and mobile devices
+
+## Tech Stack
+
+* **React**
+* **Vite**
+* **JavaScript / JSX**
+* **CSS**
+* **Vercel** — Deployment
+
+## Live Demo
+
+Visit the live portfolio:
+
+**https://portfolio-dwft3incg-rishii1.vercel.app/**
+
+## Run Locally
+
+Clone the repository and install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Development
+
+This project uses **Vite** for fast development and Hot Module Replacement (HMR).
+
+The project can be extended with additional React components, sections, animations, and integrations as the portfolio evolves.
 
 ## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The React Compiler is not enabled by default because of its potential impact on development and build performance. It can be added later if compiler-based optimizations are required.
 
-## Expanding the Oxlint configuration
+## Deployment
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The portfolio is deployed on **Vercel**.
+
+**Live URL:** https://portfolio-dwft3incg-rishii1.vercel.app/
+
+## License
+
+This project is intended for personal portfolio and demonstration purposes.
